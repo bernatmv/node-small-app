@@ -1,0 +1,16 @@
+{
+  "transform": {
+    ".(ts|tsx)": "ts-jest/preprocessor.js"
+  },
+  "moduleNameMapper": {
+    "\\.(css|less)$": "jest-style-mock.js"
+  },
+  "setupFiles": ["jest-polyfill.js"],
+  "moduleFileExtensions": ["ts", "tsx", "js"],
+  "globals": {
+    "ts-jest": {
+      "skipBabel": true
+    }
+  },
+  "testMatch": ["<rootDir>/test/**/*.spec.{ts,tsx}"]
+}

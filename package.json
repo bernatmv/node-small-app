@@ -1,8 +1,9 @@
 {
-  "name": "app",
+  "name": "node-small-app",
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
+    "@types/node": "^9.4.7",
     "autoprefixer": "6.3.7",
     "babel-core": "6.11.4",
     "babel-eslint": "6.1.2",
@@ -35,15 +36,23 @@
     "html-webpack-plugin": "2.22.0",
     "http-proxy-agent": "^1.0.0",
     "json-loader": "0.5.4",
-    "node-sass": "^4.5.1",
+    "lint-staged": "^7.0.0",
+    "node-sass": "4.7.2",
+    "nodemon": "^1.17.2",
     "opn": "4.0.2",
     "postcss-loader": "0.9.1",
+    "prettier": "^1.11.1",
     "promise": "7.1.1",
     "raw-loader": "^0.5.1",
     "rimraf": "2.5.4",
-    "sass-loader": "^4.0.0",
+    "sass-loader": "6.0.7",
     "style-loader": "0.13.1",
     "svg-url-loader": "^2.0.2",
+    "ts-jest": "^22.4.1",
+    "ts-node": "^5.0.1",
+    "tslint": "^5.9.1",
+    "tslint-config-prettier": "^1.10.0",
+    "typescript": "^2.7.2",
     "url-loader": "0.5.7",
     "webpack": "1.13.1",
     "webpack-dev-server": "1.14.1"
@@ -58,9 +67,17 @@
     "react-dom": "^15.2.1"
   },
   "scripts": {
+    "build-client": "cd client && node ./scripts/build.js",
     "client": "cd client && node ./scripts/start.js",
-    "build": "cd client && node ./scripts/build.js",
-    "server": "cd server && node src/server.js"
+    "build-server": "./node_modules/.bin/tsc ./server/src/* --outDir dist/server/",
+    "server": "node dist/server/server.js",
+    "start-server-hot": "nodemon --exec ./node_modules/.bin/ts-node -- ./server/src/server.ts",
+    "help": "echo - npm start for starting both the server and the client",
+    "format": "prettier --write **/*.*",
+    "lint": "tslint --project ./tslint.json -t verbose",
+    "precommit": "lint-staged",
+    "prepush": "yarn lint",
+    "start": "node dist/server/server.js && client"
   },
   "eslintConfig": {
     "extends": "./eslint.js"
