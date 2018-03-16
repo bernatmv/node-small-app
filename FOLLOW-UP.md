@@ -16,6 +16,7 @@
 
 ### Q) If you had more time, what further improvements or new features would you add?
 
+Duplicating entities (assigning references or using NRD/Registry)
 GraphQL
 TypeScript watch
 
