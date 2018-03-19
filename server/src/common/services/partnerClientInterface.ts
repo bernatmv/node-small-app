@@ -1,6 +1,6 @@
 import { GetFlightLivePricesRequestDto, GetFlightLivePricesResponseDto } from "../dtos/readServices/referenceDataDtos";
 
 interface PartnerClientInterface {
-  getLiveFlightPricing(request: GetFlightLivePricesRequestDto): Promise<GetFlightLivePricesResponseDto>;
+  getLiveFlightPricing(request: any): Promise<GetFlightLivePricesResponseDto>;
 }
 export default PartnerClientInterface;

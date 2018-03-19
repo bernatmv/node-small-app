@@ -38,7 +38,7 @@ class GetFlightLivePricesResponseMapper {
     const legs = dto.Legs.map(el => this._legMapper.map(el, segments));
     const itineraries = dto.Itineraries.map(el => this._itineraryMapper.map(el, legs));
     // create entity
-    return new LivePriceModel(itineraries, legs, segments);
+    return new LivePriceModel(itineraries);
   }
 }
 export default GetFlightLivePricesResponseMapper;

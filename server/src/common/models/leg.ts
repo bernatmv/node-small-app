@@ -8,7 +8,7 @@ import {
 export default class Leg {
   constructor(
     public id: string,
-    public segmentIds: Segment[],
+    public segments: Segment[],
     public originStation: Place,
     public destinationStation: Place,
     public departure: Date,

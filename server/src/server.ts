@@ -27,7 +27,7 @@ app.get("/", (req, res) => {
 */
 app.get("/api/search", (req, res) => {
 
-  api.livePricing.getLivePrices()
+  api.livePricing.getLivePrices(req.query)
   .then((results) => {
     // TODO - a better format for displaying results to the client
     console.log("TODO: transform results for consumption by client");
