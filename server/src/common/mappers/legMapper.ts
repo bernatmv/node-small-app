@@ -1,37 +1,35 @@
 import { LegDto } from "../dtos/readServices/referenceDataDtos";
-import { 
-  Leg, 
-  Segment,
-  Carrier, 
-  Place 
-} from "../models/";
-import FlightNumberMapper from "./flightNumberMapper";
+import { Leg } from "../models/";
+import { FlightNumberMapper } from "./";
+import ReferenceDataStore from "../referenceData/referenceDataStore";
 
 class LegMapper {
+
   constructor(
+    private _referenceData: ReferenceDataStore,
     private _flightNumberMapper: FlightNumberMapper
   ) {}
 
-  map(
-    dto: LegDto, 
-    carriers: Carrier[], 
-    places: Place[], 
-    segments: Segment[]
-  ): Leg {
+  map(dto: LegDto, segments): Leg {
     return new Leg(
       dto.Id,
       segments.filter(segment => dto.SegmentIds.includes(segment.id)),
-      places.find(el => el.id === dto.OriginStation),
-      places.find(el => el.id === dto.DestinationStation),
+      this._referenceData.places.get(dto.OriginStation),
+      this._referenceData.places.get(dto.DestinationStation),
       dto.Departure ? new Date(dto.Departure) : null,
       dto.Arrival ? new Date(dto.Arrival) : null,
       dto.Duration,
       dto.JourneyMode,
-      places.filter(place => dto.Stops.includes(place.id)),
-      carriers.filter(carrier => dto.Carriers.includes(carrier.id)),
-      carriers.filter(carrier => dto.OperatingCarriers.includes(carrier.id)),
+      dto.Stops.map(id => this._referenceData.places.get(id)),
+      dto.Carriers.map(id => this._referenceData.carriers.get(id)),
+      dto.OperatingCarriers.map(id => this._referenceData.carriers.get(id)),
       dto.Directionality,
-      dto.FlightNumbers.map(el => this._flightNumberMapper.map(el, carriers))
+      dto.FlightNumbers.map(el => {
+        // this component should not be owning this, but we do it like this due to how the response is structured
+        const flight = this._flightNumberMapper.map(el);
+        this._referenceData.flightNumbers.set(flight.flightNumber, flight);
+        return flight;
+      })
     );
   }
 }

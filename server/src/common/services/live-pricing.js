@@ -1,6 +1,6 @@
 /* eslint no-use-before-define:0 */
 const _ = require('lodash');
-const config = require('../config');
+const config = require('../../config');
 const querystring = require('querystring');
 // const HttpProxyAgent = require('http-proxy-agent');
 

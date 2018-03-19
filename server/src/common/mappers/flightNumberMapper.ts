@@ -1,15 +1,17 @@
 import { FlightNumberDto } from "../dtos/readServices/referenceDataDtos";
-import { 
-  FlightNumber,
-  Carrier 
-} from "../models/";
+import { FlightNumber } from "../models/";
+import ReferenceDataStore from "../referenceData/referenceDataStore";
 
 class FlightNumberMapper {
 
-  map(dto: FlightNumberDto, carriers: Carrier[]): FlightNumber {
+  constructor(
+    private _referenceData: ReferenceDataStore
+  ) {}
+
+  map(dto: FlightNumberDto): FlightNumber {
     return new FlightNumber(
       dto.FlightNumber,
-      carriers.find(el => el.id === dto.CarrierId)
+      this._referenceData.carriers.get(dto.CarrierId)
     );
   }
 }

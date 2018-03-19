@@ -80,7 +80,7 @@
     "lint": "tslint --project ./tslint.json -t verbose",
     "precommit": "lint-staged",
     "prepush": "yarn lint",
-    "start": "node dist/server/server.js && client"
+    "start": "yarn start-server-hot"
   },
   "eslintConfig": {
     "extends": "./eslint.js"

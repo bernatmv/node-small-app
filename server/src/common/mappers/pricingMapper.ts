@@ -3,12 +3,17 @@ import {
   Pricing,
   Agent 
 } from "../models/";
+import ReferenceDataStore from "../referenceData/referenceDataStore";
 
 class PricingMapper {
 
-  map(dto: PricingDto, agents: Agent[]): Pricing {
+  constructor(
+    private _referenceData: ReferenceDataStore
+  ) {}
+
+  map(dto: PricingDto): Pricing {
     return new Pricing(
-      dto.Agents ? agents.filter(agent => dto.Agents.includes(agent.id)) : [],
+      dto.Agents.map(id => this._referenceData.agents.get(id)),
       dto.QuoteAgeInMinutes,
       dto.Price
     );

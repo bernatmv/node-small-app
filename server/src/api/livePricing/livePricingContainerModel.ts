@@ -1,16 +1,27 @@
-import ReferenceDataServiceInterface from '../../common/services/referenceDataServiceInterface';
-import LivePriceModel from './model/livePriceModel';
-import GetFlightLivePricesRequest from './model/getFlightLivePricesRequest';
+import LivePriceModel from "./model/livePriceModel";
+import GetFlightLivePricesRequest from "./model/getFlightLivePricesRequest";
+import FlightLivePricesServiceInterface from "./services/flightLivePricesServiceInterface";
 
 class LivePricingContainerModel {
 
   constructor(
-    private _referenceDataService: ReferenceDataServiceInterface,
+    private _flightLivePricesService: FlightLivePricesServiceInterface
   ) {}
 
-  async getLivePrices(id: number): Promise<LivePriceModel> {
-    const app = await this._referenceDataService.getApp(new GetFlightLivePricesRequest(id));
-    return new LivePriceModel(app, developer);
+  async getLivePrices(): Promise<LivePriceModel> {
+    return await this._flightLivePricesService.getPricing(new GetFlightLivePricesRequest(
+      "GB",
+      "GBP",
+      "en-gb",
+      "EDI",
+      "LOND",
+      "2018-03-26",
+      "1",
+      "0",
+      "0",
+      "2018-03-27",
+      "Economy"
+    ));
   }
 }
 export default LivePricingContainerModel;

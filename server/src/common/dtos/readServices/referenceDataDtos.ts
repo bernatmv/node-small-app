@@ -12,7 +12,6 @@ export interface GetFlightLivePricesRequestDto {
   infants?: string;
   includeCarriers?: string;
   excludeCarriers?: string;
-  apiKey: string;
 }
 
 export interface GetFlightLivePricesResponseDto {

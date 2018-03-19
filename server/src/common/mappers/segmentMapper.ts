@@ -1,29 +1,26 @@
 import { SegmentDto } from "../dtos/readServices/referenceDataDtos";
-import { 
-  Segment, 
-  Carrier, 
-  FlightNumber, 
-  Place 
-} from "../models/";
+import { Segment } from "../models/";
+import ReferenceDataStore from "../referenceData/referenceDataStore";
 
 class SegmentMapper {
 
+  constructor(
+    private _referenceData: ReferenceDataStore
+  ) {}
+
   map(
-    dto: SegmentDto, 
-    carriers: Carrier[], 
-    places: Place[], 
-    flightNumbers: FlightNumber[]
+    dto: SegmentDto
   ): Segment {
     return new Segment(
       dto.Id,
-      places.find(el => el.id === dto.OriginStation),
-      places.find(el => el.id === dto.DestinationStation),
+      this._referenceData.places.get(dto.OriginStation),
+      this._referenceData.places.get(dto.DestinationStation),
       dto.Departure ? new Date(dto.Departure) : null,
       dto.Arrival ? new Date(dto.Arrival) : null,
-      carriers.find(el => el.id === dto.Carrier),
-      carriers.find(el => el.id === dto.OperatingCarrier),
+      this._referenceData.carriers.get(dto.Carrier),
+      this._referenceData.carriers.get(dto.OperatingCarrier),
       dto.Duration,
-      flightNumbers.find(el => el.flightNumber === dto.FlightNumber),
+      this._referenceData.flightNumbers.get(dto.FlightNumber),
       dto.JourneyMode,
       dto.Directionality
     );
