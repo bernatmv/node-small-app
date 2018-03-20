@@ -1,8 +1,5 @@
 import { PricingDto } from "../dtos/readServices/referenceDataDtos";
-import { 
-  Pricing,
-  Agent 
-} from "../models/";
+import { Pricing } from "../models/";
 import ReferenceDataStore from "../referenceData/referenceDataStore";
 
 class PricingMapper {

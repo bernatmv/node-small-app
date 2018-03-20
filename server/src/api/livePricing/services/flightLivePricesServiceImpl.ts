@@ -1,4 +1,3 @@
-import { GetFlightLivePricesRequestDto } from "../../../common/dtos/readServices/referenceDataDtos";
 import FlightLivePricesServiceInterface from "./flightLivePricesServiceInterface";
 import GetFlightLivePricesRequest from "../model/getFlightLivePricesRequest";
 import LivePriceModel from "../model/livePriceModel";

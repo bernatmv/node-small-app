@@ -1,4 +1,4 @@
-import { Agent, Carrier, Currency, FlightNumber, Place, Segment } from "../models";
+import { Agent, Carrier, Currency, FlightNumber, Place } from "../models";
 
 class ReferenceDataStore {
   public agents: Map<number, Agent>;

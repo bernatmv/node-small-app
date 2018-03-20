@@ -16,10 +16,12 @@
 * Overengineering
 We can extract to other libraries/npm packages the common eabstractions. The transport layer can be extracted, the entities/named reference data, the dtos, the output... in the end it will almost only hold the domain for this microservice (flight live prices). Also, this way we have code completation/intellisense which not only increases productivity and maintainability, it also reduces cognitive load.
 * ZERO optimized!
+* Just FUNCTIONAL testing of domain
 
 
 ### Q) If you had more time, what further improvements or new features would you add?
 
+Limited testing: +UT +Functional +Cucumber
 Duplicating entities (assigning references or using NRD/Registry)
 GraphQL
 TypeScript watch

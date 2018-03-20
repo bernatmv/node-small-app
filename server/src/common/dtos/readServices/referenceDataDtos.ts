@@ -62,8 +62,8 @@ export interface SegmentDto {
   Id: number;
   OriginStation: number;
   DestinationStation: number;
-  Departure: string;
-  Arrival: string;
+  DepartureDateTime: string;
+  ArrivalDateTime: string;
   Carrier: number;
   OperatingCarrier: number;
   Duration: number;
