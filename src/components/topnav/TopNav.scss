@@ -1,0 +1,28 @@
+@import "~bpk-mixins";
+
+.App {
+  font-family: $bpk-font-family-base;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: $bpk-spacing-sm $bpk-spacing-sm;
+  
+    background-color: $bpk-color-white;
+    box-shadow: 0 0 10px 0 $bpk-color-gray-300;
+  }
+
+  &__logo {
+    width: 48px;
+    vertical-align: middle;
+  }
+
+  &__logo-text {
+    @include bpk-visually-hidden;
+  }
+
+  &__menu {
+    fill: $bpk-color-blue-500;
+  }
+}

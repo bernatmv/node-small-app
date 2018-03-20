@@ -1,20 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
+import TopNav from './components/topnav/TopNav';
+import LivePricing from './components/livePricing/LivePricing';
+
 import './App.scss';
 
-import TopNav from './components/topnav';
-
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <TopNav/>
-        // TODO header
-        // TODO placeholder controls
-        // TODO results component
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div className="App">
+    <TopNav/>
+    <LivePricing />
+  </div>
+);
 
 // example api use
 // TODO put this call somewhere sensible

@@ -1,0 +1,11 @@
+@import "~bpk-stylesheets/index";
+
+.List {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $bpk-color-gray-100;
+  border: 0;
+  padding: .7rem;
+}
