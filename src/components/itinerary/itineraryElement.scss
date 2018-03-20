@@ -7,4 +7,96 @@
   justify-content: center;
   margin-bottom: 1rem;
   width: 100%;
+
+  > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  &__row {
+    margin-bottom: 15px;
+  }
+
+  &__logo {
+    display: flex;
+    align-self: flex-start;
+    width: 25px;
+
+    > div {
+      height: 24px;
+      width: 24px;
+    }
+
+    img {
+      border-radius: 5px;
+    }
+  }
+
+  &__departure,
+  &__arrival {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    padding-left: 10px;
+
+    &__time {
+      color: #000;
+    }
+
+    &__acronym {
+      color: $bpk-color-gray-500;
+    }
+  }
+
+  &__arrow {
+    display: flex;
+    width: 20px;
+    margin: 0 10px;
+    fill: $bpk-color-gray-400;
+  }
+
+  &__gap {
+    display: flex;
+    flex: 1;
+  }
+
+  &__data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 80px;
+
+    &__duration {
+      font-size: $bpk-text-xs-font-size;
+      color: $bpk-color-gray-500;
+    }
+
+    &__direct {
+      font-size: $bpk-text-xs-font-size;
+      color:$bpk-color-green-400
+    }
+  }
+
+  &__action {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    &__price {
+      font-size: $bpk-text-xl-font-size;
+    }
+
+    &__agent {
+      color: $bpk-color-gray-400;
+    }
+  }
+
+  &__select {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+  }
 }
