@@ -32,7 +32,8 @@ class LivePriceModelMapper {
           agent: price.agents.length > 0 ? price.agents[0].name : "",
           price: price.price
         }))
-      }))
+      })),
+      currency: model.currency.symbol
     };
   }
 }

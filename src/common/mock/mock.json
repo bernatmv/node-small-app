@@ -1,0 +1,1081 @@
+[{
+  "outboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "EDI",
+      "to": "STN",
+      "departure": "1522083600000",
+      "arrival": "1522088700000",
+      "duration": 85
+    }],
+    "directionality": "Outbound"
+  },
+  "inboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "LTN",
+      "to": "EDI",
+      "departure": "1522131600000",
+      "arrival": "1522136400000",
+      "duration": 80
+    }],
+    "directionality": "Inbound"
+  },
+  "prices": [{
+    "agent": "easyJet",
+    "price": 54.56
+  }, {
+    "agent": "Trip.com",
+    "price": 73
+  }, {
+    "agent": "Opodo",
+    "price": 75.23
+  }, {
+    "agent": "eDreams",
+    "price": 75.24
+  }, {
+    "agent": "Kiwi.com",
+    "price": 81
+  }, {
+    "agent": "Expedia",
+    "price": 82.56
+  }, {
+    "agent": "ebookers",
+    "price": 85.56
+  }, {
+    "agent": "GotoGate",
+    "price": 90.05
+  }, {
+    "agent": "lastminute.com",
+    "price": 94.38
+  }, {
+    "agent": "Bravofly",
+    "price": 99.28
+  }]
+}, {
+  "outboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "EDI",
+      "to": "STN",
+      "departure": "1522083600000",
+      "arrival": "1522088700000",
+      "duration": 85
+    }],
+    "directionality": "Outbound"
+  },
+  "inboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "LTN",
+      "to": "EDI",
+      "departure": "1522151700000",
+      "arrival": "1522156200000",
+      "duration": 75
+    }],
+    "directionality": "Inbound"
+  },
+  "prices": [{
+    "agent": "easyJet",
+    "price": 54.56
+  }, {
+    "agent": "Trip.com",
+    "price": 73
+  }, {
+    "agent": "Opodo",
+    "price": 75.23
+  }, {
+    "agent": "eDreams",
+    "price": 75.24
+  }, {
+    "agent": "Kiwi.com",
+    "price": 81
+  }, {
+    "agent": "Expedia",
+    "price": 82.56
+  }, {
+    "agent": "ebookers",
+    "price": 85.56
+  }, {
+    "agent": "GotoGate",
+    "price": 90.05
+  }, {
+    "agent": "lastminute.com",
+    "price": 94.38
+  }, {
+    "agent": "Bravofly",
+    "price": 99.28
+  }]
+}, {
+  "outboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "EDI",
+      "to": "STN",
+      "departure": "1522083600000",
+      "arrival": "1522088700000",
+      "duration": 85
+    }],
+    "directionality": "Outbound"
+  },
+  "inboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "LTN",
+      "to": "EDI",
+      "departure": "1522170900000",
+      "arrival": "1522175400000",
+      "duration": 75
+    }],
+    "directionality": "Inbound"
+  },
+  "prices": [{
+    "agent": "easyJet",
+    "price": 54.56
+  }, {
+    "agent": "Trip.com",
+    "price": 73
+  }, {
+    "agent": "Opodo",
+    "price": 75.23
+  }, {
+    "agent": "eDreams",
+    "price": 75.24
+  }, {
+    "agent": "Kiwi.com",
+    "price": 81
+  }, {
+    "agent": "Expedia",
+    "price": 82.56
+  }, {
+    "agent": "ebookers",
+    "price": 85.56
+  }, {
+    "agent": "GotoGate",
+    "price": 90.05
+  }, {
+    "agent": "lastminute.com",
+    "price": 94.38
+  }, {
+    "agent": "Bravofly",
+    "price": 99.28
+  }]
+}, {
+  "outboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "EDI",
+      "to": "STN",
+      "departure": "1522083600000",
+      "arrival": "1522088700000",
+      "duration": 85
+    }],
+    "directionality": "Outbound"
+  },
+  "inboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "STN",
+      "to": "EDI",
+      "departure": "1522133700000",
+      "arrival": "1522138500000",
+      "duration": 80
+    }],
+    "directionality": "Inbound"
+  },
+  "prices": [{
+    "agent": "easyJet",
+    "price": 55.57
+  }, {
+    "agent": "Trip.com",
+    "price": 74
+  }, {
+    "agent": "Opodo",
+    "price": 76.26
+  }, {
+    "agent": "eDreams",
+    "price": 76.27
+  }, {
+    "agent": "Kiwi.com",
+    "price": 82
+  }, {
+    "agent": "Expedia",
+    "price": 83.57
+  }, {
+    "agent": "ebookers",
+    "price": 86.57
+  }, {
+    "agent": "GotoGate",
+    "price": 91.06
+  }, {
+    "agent": "lastminute.com",
+    "price": 95.4
+  }, {
+    "agent": "Bravofly",
+    "price": 100.29
+  }]
+}, {
+  "outboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "EDI",
+      "to": "STN",
+      "departure": "1522083600000",
+      "arrival": "1522088700000",
+      "duration": 85
+    }],
+    "directionality": "Outbound"
+  },
+  "inboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "STN",
+      "to": "EDI",
+      "departure": "1522139100000",
+      "arrival": "1522143600000",
+      "duration": 75
+    }],
+    "directionality": "Inbound"
+  },
+  "prices": [{
+    "agent": "easyJet",
+    "price": 55.57
+  }, {
+    "agent": "Trip.com",
+    "price": 74
+  }, {
+    "agent": "Opodo",
+    "price": 76.26
+  }, {
+    "agent": "eDreams",
+    "price": 76.27
+  }, {
+    "agent": "Kiwi.com",
+    "price": 82
+  }, {
+    "agent": "Expedia",
+    "price": 83.57
+  }, {
+    "agent": "ebookers",
+    "price": 86.57
+  }, {
+    "agent": "GotoGate",
+    "price": 91.06
+  }, {
+    "agent": "lastminute.com",
+    "price": 95.4
+  }, {
+    "agent": "Bravofly",
+    "price": 100.29
+  }]
+}, {
+  "outboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "EDI",
+      "to": "STN",
+      "departure": "1522083600000",
+      "arrival": "1522088700000",
+      "duration": 85
+    }],
+    "directionality": "Outbound"
+  },
+  "inboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "STN",
+      "to": "EDI",
+      "departure": "1522159500000",
+      "arrival": "1522164000000",
+      "duration": 75
+    }],
+    "directionality": "Inbound"
+  },
+  "prices": [{
+    "agent": "easyJet",
+    "price": 55.57
+  }, {
+    "agent": "Trip.com",
+    "price": 74
+  }, {
+    "agent": "Opodo",
+    "price": 76.26
+  }, {
+    "agent": "eDreams",
+    "price": 76.27
+  }, {
+    "agent": "Kiwi.com",
+    "price": 82
+  }, {
+    "agent": "Expedia",
+    "price": 83.57
+  }, {
+    "agent": "ebookers",
+    "price": 86.57
+  }, {
+    "agent": "GotoGate",
+    "price": 91.06
+  }, {
+    "agent": "lastminute.com",
+    "price": 95.4
+  }, {
+    "agent": "Bravofly",
+    "price": 100.29
+  }]
+}, {
+  "outboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "EDI",
+      "to": "STN",
+      "departure": "1522083600000",
+      "arrival": "1522088700000",
+      "duration": 85
+    }],
+    "directionality": "Outbound"
+  },
+  "inboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "STN",
+      "to": "EDI",
+      "departure": "1522173300000",
+      "arrival": "1522177800000",
+      "duration": 75
+    }],
+    "directionality": "Inbound"
+  },
+  "prices": [{
+    "agent": "easyJet",
+    "price": 55.57
+  }, {
+    "agent": "Trip.com",
+    "price": 74
+  }, {
+    "agent": "Opodo",
+    "price": 76.26
+  }, {
+    "agent": "eDreams",
+    "price": 76.27
+  }, {
+    "agent": "Kiwi.com",
+    "price": 82
+  }, {
+    "agent": "Expedia",
+    "price": 83.57
+  }, {
+    "agent": "ebookers",
+    "price": 86.57
+  }, {
+    "agent": "GotoGate",
+    "price": 91.06
+  }, {
+    "agent": "lastminute.com",
+    "price": 95.4
+  }, {
+    "agent": "Bravofly",
+    "price": 100.29
+  }]
+}, {
+  "outboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "EDI",
+      "to": "STN",
+      "departure": "1522083600000",
+      "arrival": "1522088700000",
+      "duration": 85
+    }],
+    "directionality": "Outbound"
+  },
+  "inboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "LGW",
+      "to": "EDI",
+      "departure": "1522150500000",
+      "arrival": "1522156200000",
+      "duration": 95
+    }],
+    "directionality": "Inbound"
+  },
+  "prices": [{
+    "agent": "easyJet",
+    "price": 57.59
+  }, {
+    "agent": "Trip.com",
+    "price": 76
+  }, {
+    "agent": "Opodo",
+    "price": 78.31
+  }, {
+    "agent": "eDreams",
+    "price": 78.32
+  }, {
+    "agent": "Kiwi.com",
+    "price": 84
+  }, {
+    "agent": "Expedia",
+    "price": 85.59
+  }, {
+    "agent": "ebookers",
+    "price": 88.59
+  }, {
+    "agent": "GotoGate",
+    "price": 93.08
+  }, {
+    "agent": "lastminute.com",
+    "price": 97.42
+  }, {
+    "agent": "Bravofly",
+    "price": 102.31
+  }]
+}, {
+  "outboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "EDI",
+      "to": "STN",
+      "departure": "1522083600000",
+      "arrival": "1522088700000",
+      "duration": 85
+    }],
+    "directionality": "Outbound"
+  },
+  "inboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "LGW",
+      "to": "EDI",
+      "departure": "1522158600000",
+      "arrival": "1522164300000",
+      "duration": 95
+    }],
+    "directionality": "Inbound"
+  },
+  "prices": [{
+    "agent": "easyJet",
+    "price": 57.59
+  }, {
+    "agent": "Trip.com",
+    "price": 76
+  }, {
+    "agent": "Opodo",
+    "price": 78.31
+  }, {
+    "agent": "eDreams",
+    "price": 78.32
+  }, {
+    "agent": "Kiwi.com",
+    "price": 84
+  }, {
+    "agent": "Expedia",
+    "price": 85.59
+  }, {
+    "agent": "ebookers",
+    "price": 88.59
+  }, {
+    "agent": "GotoGate",
+    "price": 93.08
+  }, {
+    "agent": "lastminute.com",
+    "price": 97.42
+  }, {
+    "agent": "Bravofly",
+    "price": 102.31
+  }]
+}, {
+  "outboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "EDI",
+      "to": "STN",
+      "departure": "1522037400000",
+      "arrival": "1522042800000",
+      "duration": 90
+    }],
+    "directionality": "Outbound"
+  },
+  "inboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "LTN",
+      "to": "EDI",
+      "departure": "1522131600000",
+      "arrival": "1522136400000",
+      "duration": 80
+    }],
+    "directionality": "Inbound"
+  },
+  "prices": [{
+    "agent": "easyJet",
+    "price": 58.6
+  }, {
+    "agent": "Trip.com",
+    "price": 77
+  }, {
+    "agent": "Opodo",
+    "price": 79.33
+  }, {
+    "agent": "eDreams",
+    "price": 79.34
+  }, {
+    "agent": "Kiwi.com",
+    "price": 86
+  }, {
+    "agent": "Expedia",
+    "price": 86.6
+  }, {
+    "agent": "ebookers",
+    "price": 89.6
+  }, {
+    "agent": "GotoGate",
+    "price": 94.09
+  }, {
+    "agent": "lastminute.com",
+    "price": 98.42
+  }, {
+    "agent": "Bravofly",
+    "price": 103.31
+  }]
+}, {
+  "outboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "EDI",
+      "to": "STN",
+      "departure": "1522037400000",
+      "arrival": "1522042800000",
+      "duration": 90
+    }],
+    "directionality": "Outbound"
+  },
+  "inboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "LTN",
+      "to": "EDI",
+      "departure": "1522151700000",
+      "arrival": "1522156200000",
+      "duration": 75
+    }],
+    "directionality": "Inbound"
+  },
+  "prices": [{
+    "agent": "easyJet",
+    "price": 58.6
+  }, {
+    "agent": "Trip.com",
+    "price": 77
+  }, {
+    "agent": "Opodo",
+    "price": 79.33
+  }, {
+    "agent": "eDreams",
+    "price": 79.34
+  }, {
+    "agent": "Kiwi.com",
+    "price": 86
+  }, {
+    "agent": "Expedia",
+    "price": 86.6
+  }, {
+    "agent": "ebookers",
+    "price": 89.6
+  }, {
+    "agent": "GotoGate",
+    "price": 94.09
+  }, {
+    "agent": "lastminute.com",
+    "price": 98.42
+  }, {
+    "agent": "Bravofly",
+    "price": 103.31
+  }]
+}, {
+  "outboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "EDI",
+      "to": "STN",
+      "departure": "1522037400000",
+      "arrival": "1522042800000",
+      "duration": 90
+    }],
+    "directionality": "Outbound"
+  },
+  "inboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "LTN",
+      "to": "EDI",
+      "departure": "1522170900000",
+      "arrival": "1522175400000",
+      "duration": 75
+    }],
+    "directionality": "Inbound"
+  },
+  "prices": [{
+    "agent": "easyJet",
+    "price": 58.6
+  }, {
+    "agent": "Trip.com",
+    "price": 77
+  }, {
+    "agent": "Opodo",
+    "price": 79.33
+  }, {
+    "agent": "eDreams",
+    "price": 79.34
+  }, {
+    "agent": "Kiwi.com",
+    "price": 86
+  }, {
+    "agent": "Expedia",
+    "price": 86.6
+  }, {
+    "agent": "ebookers",
+    "price": 89.6
+  }, {
+    "agent": "GotoGate",
+    "price": 94.09
+  }, {
+    "agent": "lastminute.com",
+    "price": 98.42
+  }, {
+    "agent": "Bravofly",
+    "price": 103.31
+  }]
+}, {
+  "outboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "EDI",
+      "to": "STN",
+      "departure": "1522058400000",
+      "arrival": "1522063200000",
+      "duration": 80
+    }],
+    "directionality": "Outbound"
+  },
+  "inboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "LTN",
+      "to": "EDI",
+      "departure": "1522131600000",
+      "arrival": "1522136400000",
+      "duration": 80
+    }],
+    "directionality": "Inbound"
+  },
+  "prices": [{
+    "agent": "easyJet",
+    "price": 58.6
+  }, {
+    "agent": "Trip.com",
+    "price": 77
+  }, {
+    "agent": "Opodo",
+    "price": 79.33
+  }, {
+    "agent": "eDreams",
+    "price": 79.34
+  }, {
+    "agent": "Kiwi.com",
+    "price": 86
+  }, {
+    "agent": "Expedia",
+    "price": 86.6
+  }, {
+    "agent": "ebookers",
+    "price": 89.6
+  }, {
+    "agent": "GotoGate",
+    "price": 94.09
+  }, {
+    "agent": "lastminute.com",
+    "price": 98.42
+  }, {
+    "agent": "Bravofly",
+    "price": 103.31
+  }]
+}, {
+  "outboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "EDI",
+      "to": "STN",
+      "departure": "1522058400000",
+      "arrival": "1522063200000",
+      "duration": 80
+    }],
+    "directionality": "Outbound"
+  },
+  "inboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "LTN",
+      "to": "EDI",
+      "departure": "1522151700000",
+      "arrival": "1522156200000",
+      "duration": 75
+    }],
+    "directionality": "Inbound"
+  },
+  "prices": [{
+    "agent": "easyJet",
+    "price": 58.6
+  }, {
+    "agent": "Trip.com",
+    "price": 77
+  }, {
+    "agent": "Opodo",
+    "price": 79.33
+  }, {
+    "agent": "eDreams",
+    "price": 79.34
+  }, {
+    "agent": "Kiwi.com",
+    "price": 86
+  }, {
+    "agent": "Expedia",
+    "price": 86.6
+  }, {
+    "agent": "ebookers",
+    "price": 89.6
+  }, {
+    "agent": "GotoGate",
+    "price": 94.09
+  }, {
+    "agent": "lastminute.com",
+    "price": 98.42
+  }, {
+    "agent": "Bravofly",
+    "price": 103.31
+  }]
+}, {
+  "outboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "EDI",
+      "to": "STN",
+      "departure": "1522058400000",
+      "arrival": "1522063200000",
+      "duration": 80
+    }],
+    "directionality": "Outbound"
+  },
+  "inboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "LTN",
+      "to": "EDI",
+      "departure": "1522170900000",
+      "arrival": "1522175400000",
+      "duration": 75
+    }],
+    "directionality": "Inbound"
+  },
+  "prices": [{
+    "agent": "easyJet",
+    "price": 58.6
+  }, {
+    "agent": "Trip.com",
+    "price": 77
+  }, {
+    "agent": "Opodo",
+    "price": 79.33
+  }, {
+    "agent": "eDreams",
+    "price": 79.34
+  }, {
+    "agent": "Kiwi.com",
+    "price": 86
+  }, {
+    "agent": "Expedia",
+    "price": 86.6
+  }, {
+    "agent": "ebookers",
+    "price": 89.6
+  }, {
+    "agent": "GotoGate",
+    "price": 94.09
+  }, {
+    "agent": "lastminute.com",
+    "price": 98.42
+  }, {
+    "agent": "Bravofly",
+    "price": 103.31
+  }]
+}, {
+  "outboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "EDI",
+      "to": "LTN",
+      "departure": "1522066200000",
+      "arrival": "1522071300000",
+      "duration": 85
+    }],
+    "directionality": "Outbound"
+  },
+  "inboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "LTN",
+      "to": "EDI",
+      "departure": "1522131600000",
+      "arrival": "1522136400000",
+      "duration": 80
+    }],
+    "directionality": "Inbound"
+  },
+  "prices": [{
+    "agent": "easyJet",
+    "price": 58.6
+  }, {
+    "agent": "Trip.com",
+    "price": 77
+  }, {
+    "agent": "Opodo",
+    "price": 79.33
+  }, {
+    "agent": "eDreams",
+    "price": 79.34
+  }, {
+    "agent": "Kiwi.com",
+    "price": 86
+  }, {
+    "agent": "Expedia",
+    "price": 86.6
+  }, {
+    "agent": "ebookers",
+    "price": 89.6
+  }, {
+    "agent": "GotoGate",
+    "price": 94.09
+  }, {
+    "agent": "lastminute.com",
+    "price": 98.42
+  }, {
+    "agent": "Bravofly",
+    "price": 103.31
+  }]
+}, {
+  "outboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "EDI",
+      "to": "LTN",
+      "departure": "1522066200000",
+      "arrival": "1522071300000",
+      "duration": 85
+    }],
+    "directionality": "Outbound"
+  },
+  "inboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "LTN",
+      "to": "EDI",
+      "departure": "1522151700000",
+      "arrival": "1522156200000",
+      "duration": 75
+    }],
+    "directionality": "Inbound"
+  },
+  "prices": [{
+    "agent": "easyJet",
+    "price": 58.6
+  }, {
+    "agent": "Trip.com",
+    "price": 77
+  }, {
+    "agent": "Opodo",
+    "price": 79.33
+  }, {
+    "agent": "eDreams",
+    "price": 79.34
+  }, {
+    "agent": "Kiwi.com",
+    "price": 86
+  }, {
+    "agent": "Expedia",
+    "price": 86.6
+  }, {
+    "agent": "ebookers",
+    "price": 89.6
+  }, {
+    "agent": "GotoGate",
+    "price": 94.09
+  }, {
+    "agent": "lastminute.com",
+    "price": 98.42
+  }, {
+    "agent": "Bravofly",
+    "price": 103.31
+  }]
+}, {
+  "outboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "EDI",
+      "to": "LTN",
+      "departure": "1522066200000",
+      "arrival": "1522071300000",
+      "duration": 85
+    }],
+    "directionality": "Outbound"
+  },
+  "inboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "LTN",
+      "to": "EDI",
+      "departure": "1522170900000",
+      "arrival": "1522175400000",
+      "duration": 75
+    }],
+    "directionality": "Inbound"
+  },
+  "prices": [{
+    "agent": "easyJet",
+    "price": 58.6
+  }, {
+    "agent": "Trip.com",
+    "price": 77
+  }, {
+    "agent": "Opodo",
+    "price": 79.33
+  }, {
+    "agent": "eDreams",
+    "price": 79.34
+  }, {
+    "agent": "Kiwi.com",
+    "price": 86
+  }, {
+    "agent": "Expedia",
+    "price": 86.6
+  }, {
+    "agent": "ebookers",
+    "price": 89.6
+  }, {
+    "agent": "GotoGate",
+    "price": 94.09
+  }, {
+    "agent": "lastminute.com",
+    "price": 98.42
+  }, {
+    "agent": "Bravofly",
+    "price": 103.31
+  }]
+}, {
+  "outboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "EDI",
+      "to": "STN",
+      "departure": "1522066800000",
+      "arrival": "1522071600000",
+      "duration": 80
+    }],
+    "directionality": "Outbound"
+  },
+  "inboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "LTN",
+      "to": "EDI",
+      "departure": "1522131600000",
+      "arrival": "1522136400000",
+      "duration": 80
+    }],
+    "directionality": "Inbound"
+  },
+  "prices": [{
+    "agent": "easyJet",
+    "price": 58.6
+  }, {
+    "agent": "Trip.com",
+    "price": 77
+  }, {
+    "agent": "Opodo",
+    "price": 79.33
+  }, {
+    "agent": "eDreams",
+    "price": 79.34
+  }, {
+    "agent": "Kiwi.com",
+    "price": 86
+  }, {
+    "agent": "Expedia",
+    "price": 86.6
+  }, {
+    "agent": "ebookers",
+    "price": 89.6
+  }, {
+    "agent": "GotoGate",
+    "price": 94.09
+  }, {
+    "agent": "lastminute.com",
+    "price": 98.42
+  }, {
+    "agent": "Bravofly",
+    "price": 103.31
+  }]
+}, {
+  "outboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "EDI",
+      "to": "STN",
+      "departure": "1522066800000",
+      "arrival": "1522071600000",
+      "duration": 80
+    }],
+    "directionality": "Outbound"
+  },
+  "inboundLeg": {
+    "segments": [{
+      "carrier": "U2",
+      "from": "LTN",
+      "to": "EDI",
+      "departure": "1522151700000",
+      "arrival": "1522156200000",
+      "duration": 75
+    }],
+    "directionality": "Inbound"
+  },
+  "prices": [{
+    "agent": "easyJet",
+    "price": 58.6
+  }, {
+    "agent": "Trip.com",
+    "price": 77
+  }, {
+    "agent": "Opodo",
+    "price": 79.33
+  }, {
+    "agent": "eDreams",
+    "price": 79.34
+  }, {
+    "agent": "Kiwi.com",
+    "price": 86
+  }, {
+    "agent": "Expedia",
+    "price": 86.6
+  }, {
+    "agent": "ebookers",
+    "price": 89.6
+  }, {
+    "agent": "GotoGate",
+    "price": 94.09
+  }, {
+    "agent": "lastminute.com",
+    "price": 98.42
+  }, {
+    "agent": "Bravofly",
+    "price": 103.31
+  }]
+}]

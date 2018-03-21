@@ -1,0 +1,23 @@
+@import "~bpk-stylesheets/index";
+
+.Footer {
+  &__action {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    &__price {
+      font-size: $bpk-text-xl-font-size;
+    }
+
+    &__agent {
+      color: $bpk-color-gray-400;
+    }
+  }
+
+  &__select {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+  }
+}

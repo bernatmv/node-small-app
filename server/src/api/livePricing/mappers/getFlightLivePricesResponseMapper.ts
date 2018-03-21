@@ -38,7 +38,8 @@ class GetFlightLivePricesResponseMapper {
     const legs = dto.Legs.map(el => this._legMapper.map(el, segments));
     const itineraries = dto.Itineraries.map(el => this._itineraryMapper.map(el, legs));
     // create entity
-    return new LivePriceModel(itineraries);
+    const firstCurrency = dto.Currencies.length > 0 ? this._referenceData.currencies.get(dto.Currencies[0].Code) : null;
+    return new LivePriceModel(itineraries, firstCurrency);
   }
 }
 export default GetFlightLivePricesResponseMapper;

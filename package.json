@@ -34,29 +34,23 @@
     "backpack-react-scripts": "5.0.9",
     "es6-promise": "^3.2.1",
     "isomorphic-fetch": "^2.2.1",
+    "query-string": "^6.0.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "redux": "^3.7.2",
+    "uuid": "^3.2.1"
   },
   "scripts": {
     "client": "react-scripts start",
-    "build-client": "react-scripts build",
-    "test-client": "react-scripts test --env=jsdom",
-    "lint:scss": "stylelint 'src/**/*.scss' --syntax scss",
-    "lint:scss:fix": "stylefmt --recursive 'src/**/*.scss'",
-    "lint:js": "eslint . --ignore-path .gitignore --ext .js,.jsx",
-    "lint:js:fix": "npm run lint:js -- --fix",
-    "lint-client": "npm run lint:js && npm run lint:scss",
-    "eject": "react-scripts eject",
+    "server": "nodemon --exec ./node_modules/.bin/ts-node -- ./server/src/server.ts",
     "build-server": "./node_modules/.bin/tsc ./server/src/server.ts --outDir dist/server/ --lib es7 --target ES5 --allowJs true",
-    "server": "node dist/server/server.js",
-    "start-server-hot": "nodemon --exec ./node_modules/.bin/ts-node -- ./server/src/server.ts",
-    "help": "echo - the server have to be build before running (or run as hot)",
+    "start-build-server": "node dist/server/server.js",
+    "test-server": "jest --watch",
     "format": "prettier --write **/*.*",
     "lint": "tslint --project ./tslint.json -t verbose",
     "precommit": "lint-staged",
     "prepush": "yarn lint",
-    "start": "yarn start-server-hot",
-    "test": "jest --watch"
+    "start": "echo Run `yarn client` (npm run client) to start the client and `yarn server` (npm run server) to start the server"
   },
   "eslintConfig": {
     "extends": "./eslint.js"

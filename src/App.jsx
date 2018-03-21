@@ -2,28 +2,14 @@ import React from 'react';
 import TopNav from './components/topnav/TopNav';
 import LivePricing from './components/livePricing/LivePricing';
 
-import './App.scss';
+import STYLES from './App.scss';
+const c = className => STYLES[className] || 'UNKNOWN';
 
-const App = () => (
-  <div className="App">
+const App = (props) => {
+  return <div className={c('App')}>
     <TopNav/>
-    <LivePricing />
+    <LivePricing {...props.itineraries} />
   </div>
-);
-
-// example api use
-// TODO put this call somewhere sensible
-// TODO send parameters to server - check out `server/src/api/server.js`
-console.log('fetching results from server...');
-
-fetch('http://localhost:4000/api/search')
-.then((response) => {
-  return response.json();
-})
-.then((results) => {
-  console.log('TODO: something with these results:');
-  console.log(results);
-})
-.catch(console.error);
+};
 
 export default App;

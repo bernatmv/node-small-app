@@ -6,18 +6,18 @@ import BpkLargeArrowIcon from 'bpk-component-icon/lg/long-arrow-right';
 import STYLES from './searchHeader.scss';
 const c = className => STYLES[className] || 'UNKNOWN';
 
-const SearchHeader = () => (
+const SearchHeader = ({from, to, travellers, travelClass}) => (
   <BpkPanel
     padded={false}
     fullWidth={true}
     className={c('Search')} >
     <BpkText 
       className={c('Search__title')} >
-      EDI <BpkLargeArrowIcon className={c('Search__arrow')} /> LOND
+      {from} <BpkLargeArrowIcon className={c('Search__arrow')} /> {to}
     </BpkText>
     <BpkText 
       className={c('Search__subTitle')} >
-      2 travellers, economy
+      {travellers} traveller{travellers > 1 ? 's' : ''}, {travelClass}
     </BpkText>
   </BpkPanel>
 );

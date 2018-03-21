@@ -1,5 +1,6 @@
 export default interface FightLivePricesOutput {
   itineraries: ItineraryOut[];
+  currency: string;
 }
 
 interface ItineraryOut {
