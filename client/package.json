@@ -1,0 +1,33 @@
+{
+  "name": "node-small-app-client",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "bpk-component-button": "^2.0.11",
+    "bpk-component-card": "^1.1.4",
+    "bpk-component-code": "^1.0.53",
+    "bpk-component-grid": "^1.1.60",
+    "bpk-component-icon": "^3.18.0",
+    "bpk-component-image": "^2.0.24",
+    "bpk-component-link": "^1.1.9",
+    "bpk-component-panel": "^1.0.53",
+    "bpk-component-text": "^1.0.51",
+    "bpk-mixins": "^17.5.0",
+    "bpk-stylesheets": "^3.2.97"
+  },
+  "dependencies": {
+    "backpack-react-scripts": "5.0.9",
+    "query-string": "^6.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "redux": "^3.7.2",
+    "uuid": "^3.2.1"
+  },
+  "scripts": {
+    "client": "react-scripts start",
+    "start": "yarn client"
+  },
+  "eslintConfig": {
+    "extends": "./eslint.js"
+  }
+}

@@ -8,13 +8,15 @@ yarn-error.log*
 
 # Dependencies
 node_modules/
+client/node_modules/
+server/node_modules/
 
 # Coverage
 coverage/
 
 # Transpiled files
-dist/
-build/
+server/dist/
+client/build/
 
 # VS Code
 .vscode

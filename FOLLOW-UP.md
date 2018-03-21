@@ -10,13 +10,23 @@ Used mainly React, Backpack and Redux (also used some small libraries for utilit
 
 ### Q) What is the command to start the server?
 
-(Default) `APIKEY=ss630745725358065467897349852985 npm run server`
-(Default) `APIKEY=ss630745725358065467897349852985 yarn server`
+Go to the `server` folder, install and run:
+
+`cd server`
+
+`yarn` or `npm install`
+
+(Default) `APIKEY=ss630745725358065467897349852985 npm run server` (also `npm start`, `yarn start` or `yarn server`)
 
 ### Q) What is the command to start the client?
 
-(Default) `npm run client`
-(Default) `yarn client`
+Go to the `client` folder, install and run:
+
+`cd client`
+
+`yarn` or `npm install`
+
+(Default) `npm run client` (also `npm start`, `yarn start` or `yarn client`)
 
 ---
 
@@ -26,26 +36,25 @@ Used mainly React, Backpack and Redux (also used some small libraries for utilit
 
 I spent about 8-10 hours on the test (give or take).
 
-Now, I would like to make some considerations:
+Some considerations:
 
 * Over-engineering: while the FE is pretty lightweight, the BE might be considered a bit over-engineered. When taking the task into consideration I had mainly 2 priorities on my head:
   1.- This is a technical task to demonstrate your capabilities. If this was a spike or as small a middleware as it's suggested, the approach might have been different favoring speed and simplicity.
   2.- Let's assume this is a small piece of software that will fit into a much large structure. From that point of view much of the server work makes sense (in my opinion, of course) if we take into account future work, integrations and enhancements. Furthermore, most of the code (everything not on the /api/) would be external re-usable components (dtos of the api, entities, reference data, services, etc) in the form of private npm packages that will help increase productivity on other parts of the ecosystem.
-  3.- TypeScript might add a bit of verbosity, but will make everything more maintainable in the long run. It will also help reduce the cognitive load.
+
+* TypeScript: might add a bit of verbosity, but will make everything more maintainable in the long run. It will also help reduce the cognitive load.
 
 * ZERO optimized! I did not approach this task as if was a production application, we can improve the building process and the performance of the application beyond what it has right now.
 
 * Testing: testing is deficient. Did some functional testing with Jest, but I did not add UT and E2E. Shame on me. This does not reflect how I think testing should be done in a project, but couldn't devote any more time into it.
 
-* Building environment: I did my own building environment for the BE and updated the FE to create-react-app. This has led to a different folder structure for the client. Not how I would have like it, but I have fought enough the building process. If I didn't have the starting constrains I would have build the environment differently (long version short: sorry for the crappy folder structure with /src and /public).
+* Building environment: I did my own building environment for the BE and updated the FE to create-react-app. This has led to a slightly different folder structure for the client.
 
 ### Q) If you had more time, what further improvements or new features would you add?
 
 * First and foremost: more tests. UT with Tape and then maybe try Cucumber for funtional testing (have been wanting to try it for a while now). Finally, some E2E.
 
-* A more refined building environment for the client (no /src and /public on the root, ugly)
-
-* Would have like to try a version with GraphQL in the middleware wrapping the Skyscanner API.
+* Would have liked to try a version with GraphQL in the middleware, wrapping the Skyscanner API.
 
 ### Q) Which parts are you most proud of? And why?
 
@@ -64,4 +73,4 @@ Enough help is provided on the description and the limitations (just display, no
 
 It helps a lot that you provide a kickstart (most helpful the client to connect to skyscanner), but it's a bit outdated for the FE. I would suggest updating the task with a new build process for the FE based on the skyscanner create react app (which is what I used in the end).
 
-Also, unsure why favicon is on the "untouchable" files.
+Also, unsure why favicon is ono of the "untouchable" files.
